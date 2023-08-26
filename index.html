@@ -14,11 +14,24 @@
  		padding: 0px;
  		margin-top: -16px;
  	}
+
+ 	.label1{
+ 		display: none;
+ 	}
+ 	.logo2{
+ 		display: none;
+ 	}
+ 	.logo{
+ 		top:0px;
+ 		position: sticky;
+ 	}
+ 	
  	.logo{
  		background-color: yellow;
  		display: flex;
  		list-style-type: none;
  		text-align: center;
+
  	}
  	.logo li{
  		font-size: 25px;
@@ -42,25 +55,20 @@
  	.but a{
  		text-decoration: none;
  	}
+ 
  	.but{
- 		float: right;
-    	margin-right: 125px;
-    	margin-top: -85px;
-    	border: none;
-    	padding: 15px;
-    	padding-left: 20px;
-    	padding-right: 20px;
-    	background-color: #24315E;
-    	box-sizing: border-box;
-    	display: inline-block;
-
-
+ 		    
+    color: white;
  	}
  	.but a{
  		color: white;
 
+
  	}
- 	
+ 	li but{
+    margin-left: 100px;
+
+ 	}
  	.nev{
  		width: 100%;
  		height: 1px;
@@ -68,8 +76,9 @@
  		margin-top: -16px;
  	}
  	@media (max-width:412px){
- 		.logo1{
-	 		display: none; 		
+ 		.logo{
+	 		display: none; 
+	 		width: 575px;		
  		}
  		.logo2{
  			    display: block;
@@ -80,13 +89,20 @@
  		}
  		.label1{
  			display: block;
- 			position: absolute;
- 			left:350px ;
- 			top: 20px;
- 			font-size: 30px  ;
+		    position: absolute;
+		    left: 480px;
+		    top: 20px;
+		    font-size: 30px;
  		}
  		.logo li img{
  			display: none;
+ 		}
+ 		#input2:checked~.logo
+ 		{
+ 			display: block;
+ 		}
+ 		.nev{
+ 			width: 575px;
  		}
  		
 
@@ -145,13 +161,15 @@
 		.page{
 			display: block;
 			height: 868px;
+			width: 575px;
 		}
 		.page1{
-		padding-left: 30px;
+		padding-left: 85px;
+    	display: flow-root;
 	}
 	.h{
 		    margin-top: -10px;
-    margin-right: -176px;
+    		margin-right: -75px;
 	}
 	.icon{
 		    display: flex;
@@ -188,6 +206,7 @@
 		.sec{
 			display: block;
 			background-color: blue;
+			width: 575px;
 		}
 		.i div{
 		color: white;
@@ -207,6 +226,7 @@
 	}	
 	.D img{
 		margin: 30px;
+		width: 575px;
 	}
 	.D img:hover{
 		opacity: 1;
@@ -245,7 +265,8 @@
 		.sce0{
 			    display: flex;
     			margin-left: -25px;
-    			width: 100%;
+    			width: 575px;
+    			font-size: 25px;
 		}
 	
 		.line{
@@ -376,7 +397,7 @@
 		.sce2{
 			display:block;
 			 
-			width: 100%; 
+			width: 575px;
 			height: 600px; 
 			margin-top: 55px;
 		}
@@ -401,6 +422,7 @@
 		}
 		.contact{
 		   display: block;
+		   margin-left: 125px;
 		}
 		.box1{
 			margin: 0px;
@@ -462,7 +484,8 @@
 		    padding-bottom: 100px;
 		    margin-top: 235px;
 		    font-size: 30px;
-		    margin-left: 35px;
+		    margin-left: 85px;
+		    width: 575px;
 		}
 		.js1{
 		padding-top: 0px;
@@ -548,20 +571,21 @@
 		.about{
 			height: 1055px;
 			background-image: url(img/background.jpg); 
-			display: block; 
+			display: block;
+			width: 575px; 
 	}
 		.about0 img{
-			width: 335px;
- 		    padding-left: 45px;
+			width: 405px;
+ 		    padding-left: 100px;
  		    padding-top: 50px;		}
 		.about1{
-			margin-left: 10px;
+			margin-left: 80px;
     		margin-top: -100px;
 		}
 		.about4{
 			width: 100%;
     		display: block;
-    		margin-left: 10px;
+    		margin-left: 55px;
 		}
 		.about1 h3{
 			font-size: 48px;
@@ -603,6 +627,7 @@
 		display: block; 
 		margin-top: 100px;
 		height: 700px;
+		width: 575px;
 	}
 	.svg2 img{
 		width: 90%;
@@ -617,7 +642,7 @@
     	color: #24315E;
 	}
 	.svg1{
-		margin-left: -70px;
+		margin-left: -20px;
 	}
 	}
 /*	<============>*/
@@ -673,6 +698,7 @@
 	@media(max-width:412px){
 	.img{
 		display: block;
+		width: 575px;
 	}
 	.img1{
 		margin-bottom: 30px;
@@ -693,19 +719,19 @@
 		margin-left: -12px;
 	}
 	.img1 img{
-		width: 408px;
+		width: 570px;
 	}
 	.img2 img{
-		width: 408px;
+		width: 570px;
 	}
 	.img3 img{
-		width: 408px;
+		width: 570px;
 	}
 	.img4 img{
-		width: 408px;
+		width: 570px;
 	}
 	.img5 img{
-		width: 408px;
+		width: 570px;
 	}
 	.img01{
 		display: block;
@@ -778,6 +804,7 @@
 	@media(max-width:412px){
 		.faq0{
 			display: block;
+			width: 575px;
 		}
 		.faq1{
 			display: flex;
@@ -863,10 +890,11 @@
 	@media(max-width:412px){
 		.work0{
 		height: 450px; 
+		width: 575px;
 		background-image: url(img/3.jpg);
 	}
 	.work1{
-		margin-left: 65px;
+		margin-left: 140px;
 	    
 	}
 	
@@ -933,13 +961,16 @@
 	@media(max-width:412px){
 		.Blog0{
 			display: block;
+			width: 575px;
 		}
 		.Blog{
 		    margin: 30px;
+		    margin-left: 50px;
 		}
 		.Blog0 h1{
 			margin: 30px;
     		font-size: 35px;
+    		margin-left: 50px;
 		}
 		.Blog1{
 		    display: block;
@@ -947,20 +978,21 @@
 
 		}
 		.Blog1 img{
-		    display: flex;
-    		margin-top: 50px;
-    		width: 350px;
-    		margin-left: 31px;
-    		height: 200px;
-	    	overflow: hidden;
+		        display: flex;
+    margin-top: 50px;
+    margin-left: 50px;
+    height: 200px;
+    overflow: hidden;
+    width: 509px;
 
 		}
 		.Blog1 hr{
-			margin-left: 30px;
-			margin-right: 30px;
+			margin-left: 50px;
+			margin-right: 35px;
+
 		}
 		.Blog1 h3{
-			margin-left: 30px;
+			margin-left: 60px;
 			font-size: 25px;
 		}
 	
@@ -1039,15 +1071,16 @@
 		.con0{
 			height: 1550px; 
 			display:block; 
-			
+			width: 575px;
 		}
 		.con1{
 			    margin-left: 23px;
     padding-top: 1px;
 		}
 		.con2{
-			width: 390px;
-    		margin: 15px;
+			    width: 562px;
+    			margin-left: 10px;
+   				 margin-right: 10px;
 
 	}
 	.con{
@@ -1078,19 +1111,20 @@
  		<img class="logo2" src="https://itemsstore.net/html/trito/img/logo/logo.png">
  		<label for="input2" class="label1"><i class="fa fa-bars"></i> </label>
 
-	<div class="logo1">
+	<!-- <div class="logo1"> -->
 	 	<ul class="logo">
 	 		<li><img src="https://itemsstore.net/html/trito/img/logo/logo.png"></li>
 			<li><a href="#">Home</a></li>
 			<li><a href="#">About</a></li>
 			<li><a href="#">News</a></li>
 			<li><a href="#">Contact</a></li>
+			<li class="but" style="background-color: #031ddb;margin-left:100px;margin-top: -19px;margin-bottom: 15px;padding-top: 17px;padding-right: 20px;"><a href="img/adityacv.pdf"><b>Download CV</b></a></li>
+			
+		<!-- <div class="but"> -->
+		<!-- </div> -->
 		</ul>
-		<div class="but">
-			<a href="img/adityacv.pdf">Download CV</a>
-		</div>
 		<div class="nev"></div>
-	</div>
+	<!-- </div> -->
 <!-- <================> -->
 	
 	 <div class="page">
